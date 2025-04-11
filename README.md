@@ -13,3 +13,12 @@ Website.
 configures itself as a Web application.
 7. Show that the JPA entities can be used by Spring JPA to create schema tables
 complete with relationships.
+
+WEEK TWO (Week 14 Coding Assignment):
+1. Demonstrate knowledge of Spring Boot best practices by writing a multi-layer
+application including the input/output layer, the service layer, and the data layer.
+2. Show mastery of Spring JPA by writing a service-layer method that both inserts and
+updates pet store data.
+3. Understand Spring Boot mechanics by using a Data Transfer Object (DTO) for
+application data input and output (as opposed to using the JPA entities, which will
+cause your application to go BOOM without special processing).

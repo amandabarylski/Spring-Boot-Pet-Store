@@ -1,5 +1,6 @@
 package pet.store.entity;
 
+import java.util.HashSet;
 import java.util.Set;
 
 import jakarta.persistence.CascadeType;
@@ -18,7 +19,7 @@ public class Customer {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int customerId;
+	private Long customerId;
 	
 	private String customerFirstName;
 	
@@ -29,6 +30,6 @@ public class Customer {
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
 	@ManyToMany(mappedBy = "customers", cascade = CascadeType.PERSIST)
-	private Set<PetStore> petStores;
+	private Set<PetStore> petStores = new HashSet<>();
 	
 }
