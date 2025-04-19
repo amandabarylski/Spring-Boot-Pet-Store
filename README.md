@@ -22,3 +22,9 @@ updates pet store data.
 3. Understand Spring Boot mechanics by using a Data Transfer Object (DTO) for
 application data input and output (as opposed to using the JPA entities, which will
 cause your application to go BOOM without special processing).
+
+WEEK THREE (Week 15 Coding Assignment):
+1. Demonstrate ability to manage Spring JPA relationships by adding child rows in a oneto-
+many relationship and a many-to-many relationship.
+2. Show continued mastery of Spring JPA by coding the retrieve pet store and delete pet
+store operations.
